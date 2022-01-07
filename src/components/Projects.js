@@ -1,6 +1,6 @@
 import React from 'react';
-import screen1 from '../assets/art-gallery-screen.png'
-import screen2 from '../assets/spaceman-screen.png'
+import screen2 from '../assets/art-gallery-screen.png'
+import screen1 from '../assets/spaceman-screen.png'
 
 const projects = [
     {
@@ -19,18 +19,17 @@ const projects = [
     }
 ]
 
-
 function Projects(props) {
     return (
-        <div className = "projects">
+        <div className = "projectsContainer">
             {projects.map(project => (
                 <div key = {project.id} className = "projectCard">
-                    <h2>{project.name}</h2>
                     <img src = {project.img} alt = "Project Image" />
-                    {console.log(project.img)}
-                    <p className = "tags">{project.tags}</p>
-                    <p className = "description">{project.description}</p>
-                    {console.log(project.img_src)}
+                    <div className = "projectTextWrapper">
+                        <h2 className = "projectTitle">{project.name}</h2>
+                        <p className = "projectTags">{project.tags}</p>
+                        <p className = "projectDescription">{project.description}</p>
+                    </div>
                 </div>
             ))}
 

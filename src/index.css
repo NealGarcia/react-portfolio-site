@@ -22,3 +22,40 @@ body {
 .nav li{
   margin-right: 10px;
 }
+
+.projectCard img{
+  /* width: 75%; */
+}
+
+.projectsContainer{
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+.projectCard{
+  /* border: 1px solid red; */
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projectCard img{
+  margin: auto;
+  width: 100%
+}
+
+.projectTextWrapper{
+  padding: 2px 16px;
+}
+
+
+
+.footer{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
