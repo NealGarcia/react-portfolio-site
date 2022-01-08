@@ -13,7 +13,7 @@ function Header(props) {
                     <li>Resume</li>
                     <li>LinkedIn</li>
                     <li>Github</li>
-                    <li>Contact Me</li>
+                    <li>Contact</li>
                 </ul>
             </div>
         </div>
