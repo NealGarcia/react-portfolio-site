@@ -1,6 +1,5 @@
 import React, { useState }from 'react';
 import resume from '../assets/resume.pdf'
-import Toggle from "react-toggle";
 import DarkMode from './DarkMode';
 import "react-toggle/style.css" 
 

@@ -1,13 +1,13 @@
 /* users previous toggle settings */
 :root {
-    ---font-color: #FFFFFF;
-    ---background-color: #000000;
+    --font-color: #000000;
+    --background-color: #FFFFFF;
 }
 
 /* user browser preference */
 [data-theme="dark"] {
-    ---font-color: #FFFFFF;
-    ---background-color: #000000;
+    --font-color: #FFFFFF;
+    --background-color: #000000;
 }
 
 /* light mode */
@@ -18,6 +18,9 @@ body{
 
 /* toggle button css */
 .toggle-theme-wrapper {
+    top: 0;
+    margin-top: 10px;
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,7 +69,7 @@ body{
   }
   
   input:checked + .slider {
-    background-color: cornflowerblue;
+    background-color: dimgrey;
   }
   
   .slider.round {

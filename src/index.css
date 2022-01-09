@@ -3,9 +3,9 @@
 body {
   font-family: 'Inter',
     sans-serif;
-  background-color: black;
+  /* background-color: black; */
   /* background-color: #F2F2F2; */
-  color: white;
+  /* color: white; */
 }
 
 p {
@@ -78,7 +78,7 @@ a:hover{
   margin-left: 20px;
   margin-right: 20px;
   /* background-color: #FFFFFF; */
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
 
 }
 
