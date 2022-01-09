@@ -1,19 +1,26 @@
 /* users previous toggle settings */
 :root {
     --font-color: #000000;
-    --background-color: #FFFFFF;
+    --background-color: #F2F2F2;
+    --link-color: #555555;
 }
 
 /* user browser preference */
 [data-theme="dark"] {
     --font-color: #FFFFFF;
     --background-color: #000000;
+    --link-color: #D3D3D3;
 }
+
 
 /* light mode */
 body{
     background-color: var(--background-color);
     color: var(--font-color);
+}
+
+li {
+  color: var(--link-color);
 }
 
 /* toggle button css */

@@ -26,7 +26,7 @@ if (defaultDark) {
 }
 
 // 5
-const toggleTheme: ChangeEventHandler<HTMLInputElement> = (e) => {
+const toggleTheme = (e) => {
   if (e.target.checked) {
     setDark();
   } else {
