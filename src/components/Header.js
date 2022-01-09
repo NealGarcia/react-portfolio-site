@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState }from 'react';
 import resume from '../assets/resume.pdf'
+import Toggle from "react-toggle";
+import DarkMode from './DarkMode';
+import "react-toggle/style.css" 
 
 
 function Header(props) {
+    const [isDark, setIsDark] = useState(true);
+
     return (
         <div>
+            <DarkMode />
             <div className = "titleWrapper">
                 {/* <h2 className = "name">Neal Garcia</h2> */}
                 <h1 className = "titleHeader">
