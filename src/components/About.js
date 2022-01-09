@@ -4,7 +4,7 @@ import avatar from '../assets/avatar.JPG'
 function About(props) {
     return (
         <div className = "about">
-            <h1 className = "aboutTitle">About</h1>
+            <h1 className = "aboutTitle">About Me</h1>
             <div className = "aboutMe">
                 <img src = {avatar} alt = "Me" className = "aboutImg"/>
                 <p>Hi, 👋  I'm <span>Neal.</span> I was born a Chicagoan, raised in Austinite, and am currently a Dallas native. 

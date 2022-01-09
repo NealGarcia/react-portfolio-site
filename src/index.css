@@ -4,6 +4,13 @@ body {
   background-color: #F2F2F2;
 }
 
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+
 .titleWrapper{
   margin: auto;
   width:75%;
@@ -13,7 +20,7 @@ body {
   margin-bottom: -25px;
 }
 .titleHeader{
-  font-size: 48px;
+  font-size: 68px;
 }
 
 .nav{
@@ -90,11 +97,12 @@ body {
 }
 
 .aboutImg{
-  width: 200px;
+  width: 300px;
   border-radius: 50%;
   float:left;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   margin-right: 40px;
+  margin-bottom: 20px;
 }
 
 .about a{
@@ -106,7 +114,7 @@ body {
 
 #social{
   font-size: 24px;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 60px;
 }
 
