@@ -18,7 +18,7 @@ function Header(props) {
             <DarkMode />
             <div className = "titleWrapper">
                 <h1 className = "titleHeader">
-                    I'm Neal Garcia, a software engineer + web developer <span>currently</span> living in <span>Dallas, Texas.</span>
+                    I'm Neal Garcia, a software engineer + front-end developer <span>currently</span> living in <span>Dallas, Texas.</span>
                 </h1>
                 <ul className = "nav">
                     <li onClick = {scrollToProjects}><button>Projects</button></li>
