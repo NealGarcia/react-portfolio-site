@@ -95,7 +95,8 @@ a:hover{
 .projectCard img{
   margin: auto;
   margin-top: 5px;
-  width: 100%
+  width: 100%;
+  min-width: 300px;
 }
 
 .projectTextWrapper{
@@ -107,6 +108,11 @@ a:hover{
   margin-top: -20px;
   font-size: 12px;
   color: #616161;
+}
+
+.projectDescription{
+  white-space: pre-line;
+  font-size: 14px;
 }
 
 .projectLinks{

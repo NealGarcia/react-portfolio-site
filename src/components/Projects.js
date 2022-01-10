@@ -1,25 +1,35 @@
 import React from 'react';
 import screen2 from '../assets/art-gallery-screen.png'
 import screen1 from '../assets/spaceman-screen.png'
+import screen3 from '../assets/employee-finder2.png'
 
 const projects = [
     {
         id: 1,
         name: "SPACEMAN",
-        description:"An outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation methods.",
-        tags: "JavaScript, HTML, CSS, Front End Development, Web Design",
+        description:"A twist on the classic handman, SPACEMAN is an outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation methods.",
+        tags: "JavaScript, HTML, CSS, Front-End",
         img: screen1,
-        repo: "https://pages.git.generalassemb.ly/nealgarcia/spaceman/",
-        site: "https://github.com/NealGarcia/Spaceman"
+        repo: "https://github.com/NealGarcia/Spaceman",
+        site: "https://pages.git.generalassemb.ly/nealgarcia/spaceman/"
     },
     {
         id: 2,
         name: "React Art Gallery",
-        description:"A front-end web application that utilizes third-party data from the Art Institute of Chicago API to allow users to search, view, and learn more about artworks in their collections.",
-        tags: "Front End Development, Web Design, ReactJS, API",
+        description:"React Art Gallery is a front-end web application that utilizes third-party data from the Art Institute of Chicago API to allow users to search, view, and learn more about artworks in the museum's collections.",
+        tags: "ReactJS, CSS, API, Front-End",
         img: screen2,
         repo: "https://github.com/NealGarcia/Art-Gallery",
         site: "https://proj-2-react-art-gallery.herokuapp.com/",
+    },
+    {
+        id: 3,
+        name: "Employee Finder",
+        description:"Employee Finder is a full-stack MERN application with full CRUD capability where users can create and update their individual employee profile, search for and contact employees.\n\nThis project was developed with a team of two other developers where we followed an Agile/Scrum workflow.",
+        tags: "Front-End, Back-End, Express, ReactJS, Mongoose, MongoDB",
+        img: screen3,
+        repo: "https://github.com/NealGarcia/Project-3-Front-End",
+        site: "https://emergency-employee-finder.herokuapp.com/",
     }
 ]
 
