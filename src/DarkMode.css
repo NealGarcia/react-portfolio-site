@@ -8,7 +8,7 @@
 /* user browser preference */
 [data-theme="dark"] {
     --font-color: #FFFFFF;
-    --background-color: #000000;
+    --background-color: #1E1E1E;
     --link-color: #D3D3D3;
 }
 

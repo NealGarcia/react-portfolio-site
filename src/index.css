@@ -3,9 +3,6 @@
 body {
   font-family: 'Inter',
     sans-serif;
-  /* background-color: black; */
-  /* background-color: #F2F2F2; */
-  /* color: white; */
 }
 
 p {
@@ -27,7 +24,7 @@ button {
 
 button:hover{
   opacity: 0.40;
-  transition: 0.2s;
+  transition: 0.15s;
 }
 
 .nav a{
@@ -87,22 +84,17 @@ a:hover{
 }
 
 .projectCard{
-  /* border: 1px solid red; */
   width: 100%;
   border: 1px solid lightgray;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-left: 20px;
   margin-right: 20px;
-  /* background-color: #FFFFFF; */
-  /* background-color: #F2F2F2; */
-
 }
 
 .projectCard img{
   margin: auto;
   margin-top: 5px;
-  
   width: 100%
 }
 
@@ -163,7 +155,6 @@ a:hover{
 
 #social{
   font-size: 24px;
-  /* text-align: center; */
   margin-top: 60px;
 }
 
