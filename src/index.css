@@ -20,11 +20,12 @@ button {
   border-bottom: 2px solid;
   padding-bottom: 3px;
   margin-bottom: 10px;
+  transition: 0.15s;
+
 }
 
 button:hover{
   opacity: 0.40;
-  transition: 0.15s;
 }
 
 .nav a{
@@ -85,13 +86,17 @@ a:hover{
 
 .projectCard{
   width: 100%;
-  /* border: 3px solid #424242; */
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-left: 20px;
   margin-right: 20px;
   position: relative;
-  background-color: #f7f7f7;
+  transition: margin 0.2s ease-in-out;
+}
+
+.projectCard:hover{
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .projectCard img{
