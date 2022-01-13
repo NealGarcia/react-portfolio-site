@@ -71,6 +71,10 @@ a:hover{
   opacity: 0.40;
 }
 
+.imglink:hover{
+  opacity: 1;
+}
+
 .projectsContainer{
   width: 75%;
   margin: auto;
@@ -133,7 +137,8 @@ a:hover{
   margin-bottom: auto;
   position: absolute;
   bottom: 10px;
-  left: 95px;
+  width: 90%;
+  margin: auto;
 }
 
 .projectLinks a{

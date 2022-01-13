@@ -37,7 +37,7 @@ function Projects(props) {
         <div className = "projectsContainer">
             {projects.map(project => (
                 <div key = {project.id} className = "projectCard">
-                    <img src = {project.img} alt = "Project" />
+                    <a href = {project.site} target="_blank" rel="noreferrer" className = "imglink"><img src = {project.img} alt = "Project" /></a>
                     <div className = "projectTextWrapper">
                         <h2 className = "projectTitle">{project.name}</h2>
                         <p className = "projectTags">{project.tags}</p>
