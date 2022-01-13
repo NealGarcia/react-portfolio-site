@@ -3,6 +3,7 @@
 body {
   font-family: 'Inter',
     sans-serif;
+  transition: background-color 0.2s;
 }
 
 p {
@@ -48,6 +49,7 @@ button:hover{
   font-size: 68px;
   font-family: 'Inter', sans-serif;  
   font-weight: 700;
+  transition: 0.45s;
 
 }
 
@@ -95,7 +97,7 @@ a:hover{
   margin-left: 20px;
   margin-right: 20px;
   position: relative;
-  transition: margin 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+  transition: margin 0.25s ease-in-out, box-shadow 0.25s ease-in-out, background-color 0.2s,
 }
 
 .projectCard:hover{
@@ -116,7 +118,8 @@ a:hover{
 }
 
 .projectTextWrapper{
-  padding: 0px 20px 80px 20px
+  padding: 0px 20px 80px 20px;
+  transition: color 0.2s
 
 }
 
