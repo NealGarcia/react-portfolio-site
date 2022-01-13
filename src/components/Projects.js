@@ -1,8 +1,7 @@
 import React from 'react';
-import screen2 from '../assets/art-gallery-screen.png'
-import screen1 from '../assets/spaceman-screen.png'
-import screen3 from '../assets/employee-finder2.png'
-
+import screen2 from '../assets/artgallery.png'
+import screen1 from '../assets/spaceman.png'
+import screen3 from '../assets/employeefinder.png'
 const projects = [
     {
         id: 1,

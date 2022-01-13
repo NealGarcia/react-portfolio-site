@@ -1,88 +1,94 @@
 /* users previous toggle settings */
 :root {
-    --font-color: #000000;
-    --background-color: #F2F2F2;
-    --link-color: #555555;
+  --font-color: #333333;
+  --background-color: #f2f2f2;
+  --link-color: #555555;
+  --project-color: #f7f7f7;
 }
 
 /* user browser preference */
 [data-theme="dark"] {
-    --font-color: #FFFFFF;
-    --background-color: #1E1E1E;
-    --link-color: #D3D3D3;
+  --font-color: #ffffff;
+  --background-color: #1e1e1e;
+  --link-color: #d3d3d3;
+  --project-color: #262626;
 }
 
-
 /* light mode */
-body{
-    background-color: var(--background-color);
-    color: var(--font-color);
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
 }
 
 li {
   color: var(--link-color);
 }
 
+.projectCard{
+  background-color: var(--project-color)
+}
+
+
 /* toggle button css */
 .toggle-theme-wrapper {
-    top: 0;
-    margin-top: 10px;
-    /* position: fixed; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 4px;
-  }
-  
-  .toggle-theme-wrapper span {
-    font-size: 28px;
-  }
-  
-  .toggle-theme {
-    position: relative;
-    display: inline-block;
-    height: 34px;
-    width: 60px;
-  }
-  
-  .toggle-theme input {
-    display: none;
-  }
-  
-  .slider {
-    background-color: #ccc;
-    position: absolute;
-    cursor: pointer;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    transition: 0.2s;
-  }
-  
-  .slider:before {
-    background-color: #fff;
-    bottom: 4px;
-    content: "";
-    height: 26px;
-    left: 4px;
-    position: absolute;
-    transition: 0.4s;
-    width: 26px;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(26px);
-  }
-  
-  input:checked + .slider {
-    background-color: dimgrey;
-  }
-  
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+  top: 0;
+  margin-top: 10px;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.toggle-theme-wrapper span {
+  font-size: 28px;
+}
+
+.toggle-theme {
+  position: relative;
+  display: inline-block;
+  height: 34px;
+  width: 60px;
+}
+
+.toggle-theme input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 0.2s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+input:checked + .slider {
+  background-color: dimgrey;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
