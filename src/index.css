@@ -226,7 +226,7 @@ a:hover{
   bottom:0;
   height:30%;
   z-index:-1;
-  /* transition: 0.25s  */
+  transition: 0.25s 
 }
 
 
