@@ -49,7 +49,7 @@ button:hover{
   font-size: 68px;
   font-family: 'Inter', sans-serif;  
   font-weight: 700;
-  transition: 0.45s;
+  transition: 0.25s;
 
 }
 
@@ -213,12 +213,12 @@ a:hover{
   position:relative;
   line-height:.9;
   text-align:center;
-  /*white-spcae:nowrap;It may need this */
+   /*white-spcae:nowrap;It may need this */
 }
 #name:after{
   content:"";
-  background:#a6e0ca;
-  /* background: #747091; */
+  /* background:#a6e0ca; */
+  /* background: #6aad93; */
   position:absolute;
   left:0px;
   right:0px;
@@ -226,6 +226,7 @@ a:hover{
   bottom:0;
   height:30%;
   z-index:-1;
+  /* transition: 0.25s  */
 }
 
 
