@@ -34,7 +34,7 @@ const projects = [
     {
         id: 4,
         name: "traveltrackr",
-        description:"traveltrackr is a full-stack application with full CRUD functionality where users can view, create, update, and delete records and entries of their travels. The app accesses the traveltracker API backend made with the Django backend Python framework with the front-end created using ReactJS and CSS styling.",
+        description:"traveltrackr is a full-stack application with full CRUD functionality where users can view, create, update, and delete records and entries of their travels. The app accesses its RESTful API backend made with the Django backend Python framework with the front-end created using ReactJS and CSS styling.",
         tags: "Front-End, Back-End, Django, Python, PostgresQL, ReactJS, CSS",
         img: screen4,
         repo: "https://github.com/NealGarcia/travel-tracker-frontend",
