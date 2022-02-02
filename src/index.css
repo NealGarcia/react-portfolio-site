@@ -3,7 +3,7 @@
 body {
   font-family: 'Inter',
     sans-serif;
-  transition: background-color 0.2s;
+  transition: background-color 0.25s;
 }
 
 p {
@@ -21,7 +21,7 @@ button {
   border-bottom: 2px solid;
   padding-bottom: 3px;
   margin-bottom: 10px;
-  transition: 0.15s;
+  transition: 0.25s;
 
 }
 
@@ -46,17 +46,16 @@ button:hover{
   margin-bottom: -25px;
 }
 .titleHeader{
-  font-size: 68px;
+  font-size: 50px;
   font-family: 'Inter', sans-serif;  
   font-weight: 700;
   transition: 0.25s;
-
 }
 
 .nav{
   display: flex;
   list-style-type: none;
-  font-size: 22px;
+  font-size: 16px;
   margin-left: -40px;
 }
 
@@ -66,7 +65,7 @@ button:hover{
 }
 
 a{
-  transition: 0.15s
+  transition: 0.25s
 }
 
 a:hover{
@@ -94,8 +93,8 @@ a:hover{
 
 .projectCard{
   width: 100%;
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 300px;
+  max-width: 300px;
   border-radius: 5px;
   box-shadow: 0 5px 16px 0px rgba(0,0,0,0.1);
   margin-left: 20px;
@@ -113,25 +112,21 @@ a:hover{
 }
 
 .projectCard img{
-  margin: auto;
-  margin-bottom: -4px;
+  object-fit: contain;
   width: 100%;
-  min-width: 400px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-
 }
 
 .projectTextWrapper{
   padding: 0px 20px 80px 20px;
-  transition: color 0.2s
+  transition: color 0.25s
 
 }
 
 .projectTags{
   margin-top: -20px;
   font-size: 12px;
-  color: #616161;
 }
 
 .projectDescription{
@@ -160,13 +155,13 @@ a:hover{
 }
 
 .aboutTitle{
-  font-size: 40px;
+  font-size: 36px;
   display: flex;
   justify-content: center;
 }
 
 .aboutMe{
-  font-size: 20px;
+  font-size: 18px;
 }
 .about span:first-child{
   font-weight: bold;
@@ -190,7 +185,7 @@ a:hover{
 }
 
 #social{
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 60px;
 }
 
@@ -203,10 +198,11 @@ a:hover{
 .footer{
   width: 50%;
   margin: auto;
-  margin-top:60px;
+  margin-top:140px;
   margin-bottom:20px;
   text-align: center;
-  color: #555555;
+  color: #9b9b9b;
+  font-size: 12px;
 }
 
 #name{
@@ -222,11 +218,17 @@ a:hover{
   position:absolute;
   left:0px;
   right:0px;
-  top:50px;
+  top:40px;
   bottom:0;
   height:30%;
   z-index:-1;
   transition: 0.25s 
+}
+
+#pin{
+  height: 0.75em;
+  margin-left: -110px;
+  margin-right: -110px;
 }
 
 

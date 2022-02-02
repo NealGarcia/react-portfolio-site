@@ -2,6 +2,7 @@ import React, { useState }from 'react';
 import resume from '../assets/resume.pdf'
 import DarkMode from './DarkMode';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { ReactComponent as Pin } from '../assets/pin.svg'
 import "react-toggle/style.css" 
 
 function Header(props) {
@@ -18,7 +19,7 @@ function Header(props) {
             <DarkMode />
             <div className = "titleWrapper">
                 <h1 className = "titleHeader">
-                    I'm <span id = "name">Neal</span>, a software engineer + front-end developer currently living in <span>Dallas, Texas.</span>
+                Hi, I'm <span id = "name">Neal</span>, a full-stack developer currently based in <br /> <Pin id = "pin"/> Dallas, TX.
                 </h1>
                 <ul className = "nav">
                     <li onClick = {scrollToProjects}><button>Projects</button></li>

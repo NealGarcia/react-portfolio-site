@@ -6,12 +6,12 @@ import screen4 from '../assets/traveltrackr.png'
 const projects = [
     {
         id: 1,
-        name: "SPACEMAN",
-        description:"A twist on the classic handman, SPACEMAN is an outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation methods.",
-        tags: "JavaScript, HTML, CSS, Front-End",
-        img: screen1,
-        repo: "https://github.com/NealGarcia/Spaceman",
-        site: "https://pages.git.generalassemb.ly/nealgarcia/spaceman/"
+        name: "traveltrackr",
+        description:"traveltrackr is a full-stack application with full CRUD functionality where users can view, create, update, and delete records and entries of their travels. The app accesses its RESTful API backend made with the Django backend Python framework with the front-end created using ReactJS and CSS styling.",
+        tags: "Front-End, Back-End, Django, Python, PostgresQL, ReactJS, CSS",
+        img: screen4,
+        repo: "https://github.com/NealGarcia/travel-tracker-frontend",
+        site: "traveltrackr.herokuapp.com/",
     },
     {
         id: 2,
@@ -23,7 +23,17 @@ const projects = [
         site: "https://proj-2-react-art-gallery.herokuapp.com/",
     },
     {
+        
         id: 3,
+        name: "SPACEMAN",
+        description:"A twist on the classic handman, SPACEMAN is an outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation methods.",
+        tags: "JavaScript, HTML, CSS, Front-End",
+        img: screen1,
+        repo: "https://github.com/NealGarcia/Spaceman",
+        site: "https://pages.git.generalassemb.ly/nealgarcia/spaceman/"
+    },
+    {
+        id: 4,
         name: "Employee Finder",
         description:"Employee Finder is a full-stack MERN application with full CRUD capability where users can create and update their individual employee profile, search for and contact employees.\n\nThis project was developed with a team of two other developers where we followed an Agile/Scrum workflow.",
         tags: "Front-End, Back-End, Express, ReactJS, CSS, Mongoose, MongoDB",
@@ -31,15 +41,7 @@ const projects = [
         repo: "https://github.com/NealGarcia/Project-3-Front-End",
         site: "https://emergency-employee-finder.herokuapp.com/",
     },
-    {
-        id: 4,
-        name: "traveltrackr",
-        description:"traveltrackr is a full-stack application with full CRUD functionality where users can view, create, update, and delete records and entries of their travels. The app accesses its RESTful API backend made with the Django backend Python framework with the front-end created using ReactJS and CSS styling.",
-        tags: "Front-End, Back-End, Django, Python, PostgresQL, ReactJS, CSS",
-        img: screen4,
-        repo: "https://github.com/NealGarcia/travel-tracker-frontend",
-        site: "traveltrackr.herokuapp.com/",
-    }
+    
 ]
 
 function Projects(props) {
@@ -53,8 +55,8 @@ function Projects(props) {
                         <p className = "projectTags">{project.tags}</p>
                         <p className = "projectDescription">{project.description}</p>
                         <div className = "projectLinks">
-                            <p><a href = {project.repo} target="_blank" rel="noreferrer">View Source Code</a> →</p>
-                            <p><a href = {project.site} target="_blank" rel="noreferrer">View Live Project </a>→</p>
+                            <p><a href = {project.repo} target="_blank" rel="noreferrer">Source Code</a> →</p>
+                            <p><a href = {project.site} target="_blank" rel="noreferrer">Live Project </a>→</p>
                         </div>
                     </div>
                 </div>

@@ -1,22 +1,23 @@
 /* users previous toggle settings (LIGHT) */
 :root {
   --font-color: #333333;
+  --tag-color:   #9c9c9c;
   --background-color: #f2f2f2;
   --link-color: #555555;
   --project-color: #f7f7f7;
   --name-block: #a6e0ca;
 }
 
-/* user browser preference */
+/* user browser preference (DARK) */
 [data-theme="dark"] {
   --font-color: #ffffff;
   --background-color: #1e1e1e;
+  --tag-color:   #7a7a7a;
   --link-color: #d3d3d3;
   --project-color: #262626;
   --name-block: #6aad93;
 }
 
-/* light mode */
 body {
   background-color: var(--background-color);
   color: var(--font-color);
@@ -29,6 +30,11 @@ li {
 .projectCard{
   background-color: var(--project-color)
 }
+
+.projectTags{
+  color: var(--tag-color)
+}
+
 #name:after{
   background: var(--name-block);
 }
