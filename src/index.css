@@ -152,17 +152,21 @@ a:hover{
 .about {
   width: 75%;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .aboutTitle{
   font-size: 36px;
   display: flex;
   justify-content: center;
+  margin-bottom: -10px;
 }
 
 .aboutMe{
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 .about span:first-child{
   font-weight: bold;
@@ -171,9 +175,9 @@ a:hover{
 .aboutImg{
   width: 300px;
   border-radius: 50%;
-  float:left;
+  /* float:left; */
   margin-right: 40px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   box-shadow: 0 25px 16px 0px rgba(0,0,0,0.1);
 
 }
@@ -230,6 +234,12 @@ a:hover{
   height: 0.75em;
   margin-left: -110px;
   margin-right: -110px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutImg{
+    display: none;
+  }
 }
 
 

@@ -19,7 +19,7 @@ function Header(props) {
             <DarkMode />
             <div className = "titleWrapper">
                 <h1 className = "titleHeader">
-                Hi, I'm <span id = "name">Neal</span>, a full-stack developer currently based in <br /> <Pin id = "pin"/> Dallas, TX.
+                Hi, I'm <span id = "name">Neal</span>, a full-stack developer currently based in <Pin id = "pin"/> Dallas, TX.
                 </h1>
                 <ul className = "nav">
                     <li onClick = {scrollToProjects}><button>Projects</button></li>
