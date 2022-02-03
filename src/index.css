@@ -55,8 +55,9 @@ button:hover{
 .nav{
   display: flex;
   list-style-type: none;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: -40px;
+  flex-wrap: wrap;
 }
 
 .nav li{
@@ -161,7 +162,7 @@ a:hover{
 }
 
 .aboutMe{
-  font-size: 18px;
+  font-size: 16px;
 }
 .about span:first-child{
   font-weight: bold;
