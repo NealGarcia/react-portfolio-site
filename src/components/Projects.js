@@ -11,7 +11,7 @@ const projects = [
         tags: "Front-End, Back-End, Django, Python, PostgresQL, ReactJS, CSS",
         img: screen4,
         repo: "https://github.com/NealGarcia/travel-tracker-frontend",
-        site: "traveltrackr.herokuapp.com/",
+        site: "https://traveltrackr.herokuapp.com/",
     },
     {
         id: 2,
