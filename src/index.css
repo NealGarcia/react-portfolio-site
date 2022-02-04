@@ -79,6 +79,7 @@ a:hover{
 
 .projectsContainer{
   margin: auto;
+  width: 100%;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -86,10 +87,11 @@ a:hover{
 }
 
 .projectsTitle{
-  font-size: 40px;
-  width: 75%;
+  font-size: 36px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  margin-top:30px;
 }
 
 .projectCard{
@@ -158,13 +160,11 @@ a:hover{
 .aboutTitle{
   font-size: 36px;
   display: flex;
-  justify-content: center;
   margin-bottom: 20px
 }
 
 .aboutMe{
   font-size: 16px;
-  display: flex;
   align-items: center;
   /* flex-wrap: wrap; */
 }
@@ -173,11 +173,12 @@ a:hover{
 }
 
 .aboutImg{
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
-  /* float:left; */
-  margin-right: 40px;
-  /* margin-bottom: 20px; */
+  float:right;
+  margin-top:20px;
+  margin-right: -60px;
+  margin-left: 80px;
   box-shadow: 0 25px 16px 0px rgba(0,0,0,0.1);
 
 }
@@ -190,8 +191,8 @@ a:hover{
 }
 
 #social{
-  font-size: 20px;
-  margin-top: 60px;
+  font-size: 18px;
+  margin-top: 40px;
 }
 
 #social a{
@@ -203,7 +204,7 @@ a:hover{
 .footer{
   width: 50%;
   margin: auto;
-  margin-top:140px;
+  margin-top:100px;
   margin-bottom:20px;
   text-align: center;
   color: #9b9b9b;
@@ -240,6 +241,16 @@ a:hover{
   .aboutImg{
     display: none;
   }
+}
+
+.icon{
+  text-decoration: none;
+  color: #9b9b9b;
+  margin-right: 10px;
+}
+
+.socialIcons{
+  margin-bottom: 10px;
 }
 
 

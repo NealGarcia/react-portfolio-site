@@ -1,5 +1,7 @@
 import React from "react";
 import avatar from "../assets/avatar.JPG";
+import resume from '../assets/resume.pdf'
+
 
 function About(props) {
   return (
@@ -21,6 +23,14 @@ function About(props) {
             When I am not coding, you can find me cycling around White Rock Lake
             here in Dallas, going for a run, or playing with my dog{" "}
             <a href="https://www.instagram.com/spaceysagey/">Sage</a>.
+          </p>
+          <p id="social">
+            Download my resume —{" "}
+            <a href={resume} target='_blank' rel='noopener noreferrer'>Resume</a>
+          </p>
+          <p id="social">
+            Say Hello 📩 —{" "}
+            <a href="mailto: nathnlgarcia@gmail.com/">nathnlgarcia@gmail.com</a>
           </p>
           <p id="social">
             Find me elsewhere on the web —{" "}

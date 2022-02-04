@@ -7,7 +7,7 @@ const projects = [
     {
         id: 1,
         name: "traveltrackr",
-        description:"traveltrackr is a full-stack application with full CRUD functionality where users can view, create, update, and delete records and entries of their travels. The app accesses its RESTful API backend made with the Django backend Python framework with the front-end created using ReactJS and CSS styling.",
+        description:"A full-stack application where users can create, update, view, and delete records and entries of their travels.",
         tags: "Front-End, Back-End, Django, Python, PostgresQL, ReactJS, CSS",
         img: screen4,
         repo: "https://github.com/NealGarcia/travel-tracker-frontend",
@@ -16,7 +16,7 @@ const projects = [
     {
         id: 2,
         name: "React Art Gallery",
-        description:"React Art Gallery is a front-end web application that utilizes third-party data from the Art Institute of Chicago API to allow users to search, view, and learn more about artworks in the museum's collections.",
+        description:"Front-end web application that utilizes third-party data from the Art Institute of Chicago API to allow users to browse their collections.",
         tags: "ReactJS, CSS, API, Front-End",
         img: screen2,
         repo: "https://github.com/NealGarcia/Art-Gallery",
@@ -26,7 +26,7 @@ const projects = [
         
         id: 3,
         name: "SPACEMAN",
-        description:"A twist on the classic handman, SPACEMAN is an outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation methods.",
+        description:"An outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation methods.",
         tags: "JavaScript, HTML, CSS, Front-End",
         img: screen1,
         repo: "https://github.com/NealGarcia/Spaceman",
@@ -35,7 +35,7 @@ const projects = [
     {
         id: 4,
         name: "Employee Finder",
-        description:"Employee Finder is a full-stack MERN application with full CRUD capability where users can create and update their individual employee profile, search for and contact employees.\n\nThis project was developed with a team of two other developers where we followed an Agile/Scrum workflow.",
+        description:"Full-stack MERN application developed with a team of two other developers where we followed an Agile/Scrum workflow.",
         tags: "Front-End, Back-End, Express, ReactJS, CSS, Mongoose, MongoDB",
         img: screen3,
         repo: "https://github.com/NealGarcia/Project-3-Front-End",
@@ -46,22 +46,24 @@ const projects = [
 
 function Projects(props) {
     return (
-        <div className = "projectsContainer">
-            {projects.map(project => (
-                <div key = {project.id} className = "projectCard">
-                    <a href = {project.site} target="_blank" rel="noreferrer" className = "imglink"><img src = {project.img} alt = "Project" /></a>
-                    <div className = "projectTextWrapper">
-                        <h2 className = "projectTitle">{project.name}</h2>
-                        <p className = "projectTags">{project.tags}</p>
-                        <p className = "projectDescription">{project.description}</p>
-                        <div className = "projectLinks">
-                            <p><a href = {project.repo} target="_blank" rel="noreferrer">Source Code</a> →</p>
-                            <p><a href = {project.site} target="_blank" rel="noreferrer">Live Project </a>→</p>
+        <div className = "projects">
+            <div className = "projectsContainer">
+                {projects.map(project => (
+                    <div key = {project.id} className = "projectCard">
+                        <a href = {project.site} target="_blank" rel="noreferrer" className = "imglink"><img src = {project.img} alt = "Project" /></a>
+                        <div className = "projectTextWrapper">
+                            <h2 className = "projectTitle">{project.name}</h2>
+                            <p className = "projectTags">{project.tags}</p>
+                            <p className = "projectDescription">{project.description}</p>
+                            <div className = "projectLinks">
+                                <p><a href = {project.repo} target="_blank" rel="noreferrer">Source Code</a> →</p>
+                                <p><a href = {project.site} target="_blank" rel="noreferrer">Live Project </a>→</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            ))}
+                ))}
 
+            </div>
         </div>
     );
 }
