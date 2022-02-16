@@ -26,7 +26,7 @@ const projects = [
         
         id: 3,
         name: "SPACEMAN",
-        description:"An outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation methods.",
+        description:"An outer-space themed browser game made with HTML, CSS, and vanilla JavaScript, where I explored DOM Manipulation and array methods.",
         tags: "JavaScript, HTML, CSS, Front-End",
         img: screen1,
         repo: "https://github.com/NealGarcia/Spaceman",
