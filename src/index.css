@@ -173,10 +173,10 @@ a:hover{
 }
 
 .aboutImg{
-  width: 250px;
+  width: 200px;
   border-radius: 50%;
   float:right;
-  margin-top:20px;
+  margin-top:-10px;
   margin-right: -60px;
   margin-left: 80px;
   box-shadow: 0 25px 16px 0px rgba(0,0,0,0.1);
