@@ -14,7 +14,7 @@
   --background-color: #1e1e1e;
   --tag-color:   #7a7a7a;
   --link-color: #9e9e9e;
-  --project-color: #262626;
+  --project-color: #353535;
   --name-block: #6aad93;
 }
 
@@ -39,6 +39,9 @@ li {
   background: var(--name-block);
 }
 
+.about{
+  background-color: var(--project-color)
+}
 
 /* toggle button css */
 .toggle-theme-wrapper {

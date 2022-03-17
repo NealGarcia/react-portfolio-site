@@ -12,7 +12,7 @@ function About(props) {
         <div className="aboutDescription">
           <p>
             Hello, 👋 I'm <span>Neal Garcia</span> — I'm a software engineer,
-            web developer, & tech enthusiast currently based in Dallas, TX. I
+            web developer, tech enthusiast, & avid runner currently based in Austin, TX. I
             graduated from the University of Texas at Dallas with a degree in
             Emerging Media and Communication and am also a graduate of General
             Assembly's Software Engineering Immersive Program. As a developer I
