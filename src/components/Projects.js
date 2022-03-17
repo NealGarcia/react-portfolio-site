@@ -3,6 +3,7 @@ import screen2 from '../assets/artgallery.png'
 import screen1 from '../assets/spaceman.png'
 import screen3 from '../assets/employeefinder.png'
 import screen4 from '../assets/traveltrackr.png'
+import screen5 from '../assets/portfolio.png'
 const projects = [
     {
         id: 1,
@@ -40,6 +41,15 @@ const projects = [
         img: screen3,
         repo: "https://github.com/NealGarcia/Project-3-Front-End",
         site: "https://emergency-employee-finder.herokuapp.com/",
+    },
+    {
+        id: 5,
+        name: "Portfolio Site",
+        description:"Developed this very site to display my personal projects and information about myself. Created from the ground up using React and CSS. ",
+        tags: "Front-End, React, CSS",
+        img: screen5,
+        repo: "https://github.com/NealGarcia/NealGarcia.github.io",
+        site: "https://nealgarcia.com/",
     },
     
 ]

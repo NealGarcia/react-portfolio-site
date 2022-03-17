@@ -12,7 +12,7 @@ function Header(props) {
     }
 
     function scrollToAbout(){
-        scroll.scrollToBottom({behavior:"smooth"});
+        scroll.scrollTo(1300);
     }
     return (
         <div>
