@@ -2,12 +2,12 @@ import React from 'react';
 import screen2 from '../assets/artgallery.png'
 import screen1 from '../assets/spaceman.png'
 import screen3 from '../assets/employeefinder.png'
-import screen4 from '../assets/traveltrackr.png'
+import screen4 from '../assets/travlr.png'
 import screen5 from '../assets/portfolio.png'
 const projects = [
     {
         id: 1,
-        name: "traveltrackr",
+        name: "travlr",
         description:"A full-stack application where users can create, update, view, and delete records and entries of their travels.",
         tags: "Front-End, Back-End, Django, Python, PostgresQL, ReactJS, CSS",
         img: screen4,
