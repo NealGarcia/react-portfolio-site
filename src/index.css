@@ -233,12 +233,6 @@ a:hover{
   margin-right: -110px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .aboutImg{
-    display: none;
-  }
-}
-
 .icon{
   text-decoration: none;
   color: #9b9b9b;
@@ -269,4 +263,8 @@ a:hover{
   padding: 20px 40px 40px;
 }
 
-
+@media only screen and (max-width: 1000px) {
+  .aboutImg{
+    display: none;
+  }
+}

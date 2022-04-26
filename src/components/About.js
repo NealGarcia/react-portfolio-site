@@ -20,8 +20,7 @@ function About(props) {
             clean and efficient code as I create well-polished applications.
           </p>
           <p>
-            When I am not coding, you can find me cycling around White Rock Lake
-            here in Dallas, going for a run, or playing with my dog{" "}
+            When I am not coding, you can find me riding my bike, going for a run, or playing with my dog{" "}
             <a href="https://www.instagram.com/spaceysagey/">Sage</a>.
           </p>
           <div className = "skills">

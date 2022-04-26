@@ -4,6 +4,8 @@ import screen1 from '../assets/spaceman.png'
 import screen3 from '../assets/employeefinder.png'
 import screen4 from '../assets/travlr.png'
 import screen5 from '../assets/portfolio.png'
+import screen6 from '../assets/nba-teams.png'
+
 const projects = [
     {
         id: 1,
@@ -17,7 +19,7 @@ const projects = [
     {
         id: 2,
         name: "React Art Gallery",
-        description:"Front-end web application that utilizes third-party data from the Art Institute of Chicago API to allow users to browse their collections.",
+        description:"Front-end web application that utilizes third-party data from the Art Institute of Chicago API to allow users to search and browse their collections.",
         tags: "ReactJS, CSS, API, Front-End",
         img: screen2,
         repo: "https://github.com/NealGarcia/Art-Gallery",
@@ -36,7 +38,7 @@ const projects = [
     {
         id: 4,
         name: "Employee Finder",
-        description:"Full-stack MERN application developed with a team of two other developers where we followed an Agile/Scrum workflow.",
+        description:"Full-stack MERN application with full CRUD functionaliy. Developed with a team of two other developers where we followed an Agile/Scrum workflow.",
         tags: "Front-End, Back-End, Express, ReactJS, CSS, Mongoose, MongoDB",
         img: screen3,
         repo: "https://github.com/NealGarcia/Project-3-Front-End",
@@ -44,6 +46,16 @@ const projects = [
     },
     {
         id: 5,
+        name: "NBA Teams",
+        description:"A front-end, single-page application built with React, ReactBootstrap, JavaScript, and CSS that utilizes third-party data from balldontlie API. Features include player search and page sort functionaltiy.",
+        tags: "Front-End, React, ReactBootstrap, CSS",
+        img: screen6,
+        repo: "https://github.com/NealGarcia/nba-teams",
+        site: "https://www.nealgarcia.com/nba-teams",
+    },
+
+    {
+        id: 6,
         name: "Portfolio Site",
         description:"Developed this very site to display my personal projects and information about myself. Created from the ground up using React and CSS. ",
         tags: "Front-End, React, CSS",
