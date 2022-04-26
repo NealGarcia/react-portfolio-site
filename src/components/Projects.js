@@ -47,7 +47,7 @@ const projects = [
     {
         id: 5,
         name: "NBA Teams",
-        description:"A front-end, single-page application built with React, ReactBootstrap, JavaScript, and CSS that utilizes third-party data from balldontlie API. Features include player search and page sort functionaltiy.",
+        description:"A front-end, single-page application built with React, ReactBootstrap, JavaScript, and CSS that utilizes third-party data from balldontlie API. Features include player search, pagination, and page sort functionaltiy.",
         tags: "Front-End, React, ReactBootstrap, CSS",
         img: screen6,
         repo: "https://github.com/NealGarcia/nba-teams",
