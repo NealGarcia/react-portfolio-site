@@ -5,7 +5,7 @@ import resume from '../assets/resume.pdf'
 
 function About(props) {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h1 className="aboutTitle">About Me</h1>
       <div className="aboutMe">
         <img src={avatar} alt="Me" className="aboutImg" />

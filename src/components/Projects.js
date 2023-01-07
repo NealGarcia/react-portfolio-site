@@ -68,7 +68,7 @@ const projects = [
 
 function Projects(props) {
     return (
-        <div className = "projects">
+        <div className = "projects" id="projects">
             <div className = "projectsContainer">
                 {projects.map(project => (
                     <div key = {project.id} className = "projectCard">
