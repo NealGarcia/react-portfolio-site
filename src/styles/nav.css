@@ -1,0 +1,20 @@
+.topNavWrapper{
+    width:100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:15px;
+}
+
+
+.topNav p{
+    margin: 0;
+}

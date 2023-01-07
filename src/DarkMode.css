@@ -46,7 +46,6 @@ li {
 /* toggle button css */
 .toggle-theme-wrapper {
   top: 0;
-  margin-top: 10px;
   /* position: fixed; */
   display: flex;
   flex-direction: row;
