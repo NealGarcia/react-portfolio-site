@@ -19,7 +19,12 @@ function Nav(props) {
         <div className="topNavWrapper">
             <div className="topNav">
             <DarkMode />
-            <p className="aboutNav">About</p>
+            <div className="navLinks">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="/" className="aboutNav">Neal Garcia</a>
         </div>
         </div>
     );

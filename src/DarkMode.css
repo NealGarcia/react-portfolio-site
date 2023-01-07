@@ -23,6 +23,11 @@ body {
   color: var(--font-color);
 }
 
+.topNavWrapper{
+    background-color: var(--background-color);
+  color: var(--font-color);
+}
+
 li {
   color: var(--link-color);
 }

@@ -12,18 +12,10 @@ function Hero(props) {
     return (
         <div>
             <div className = "heroBanner">
-                <h1 className = "heroTitle">
-                Hi, I'm <span id = "name">Neal</span>, a full-stack developer currently based in <Pin id = "pin"/> Austin, TX.
-                </h1>
-                <ul className = "nav">
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a>
-                    </li>
-                    <li><a href = "https://www.linkedin.com/in/nealgarcia" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                    <li><a href = "https://github.com/neal-garcia95" target="_blank" rel="noreferrer">Github</a></li>
-                    <li><a href={resume} target='_blank' rel='noopener noreferrer'>Resume</a></li>
-                    <li><a href = "mailto: nathnlgarcia@gmail.com" >Contact</a></li>
-                </ul>
+                <div className = "heroTitle">
+                    <h1>I'm Neal Garcia, <br/>Web Developer.</h1>
+                    <p>I'm a Junior Front-End Developer who aims to craft tailor-made, digital experiences on mobile and web. I'm currently working as a Junior Web Developer @ <a target="_blank" href="https://www.builtbymasonry.com">MASONRY</a></p>
+                </div>
             </div>
         </div>
     );
