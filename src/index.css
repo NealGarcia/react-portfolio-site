@@ -12,6 +12,7 @@
     url("./assets/fonts/Archivo-Regular.ttf") format("truetype");
 }
 
+html{scroll-behavior:smooth}
 
 
 body {
