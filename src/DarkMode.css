@@ -23,6 +23,10 @@ body {
   color: var(--font-color);
 }
 
+.heroBanner{
+  /* border-bottom: 0.5px solid var(--font-color); */
+}
+
 .topNavWrapper{
     background-color: var(--background-color);
   color: var(--font-color);

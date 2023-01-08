@@ -1,4 +1,8 @@
 import React from 'react';
+//styles
+import "../styles/projects.css" 
+
+// screenshots
 import screen2 from '../assets/artgallery.png'
 import screen1 from '../assets/spaceman.png'
 import screen3 from '../assets/employeefinder.png'
@@ -68,23 +72,24 @@ const projects = [
 
 function Projects(props) {
     return (
-        <div className = "projects" id="projects">
-            <div className = "projectsContainer">
-                {projects.map(project => (
-                    <div key = {project.id} className = "projectCard">
-                        <a href = {project.site} target="_blank" rel="noreferrer" className = "imglink"><img src = {project.img} alt = "Project" /></a>
-                        <div className = "projectTextWrapper">
-                            <h2 className = "projectTitle">{project.name}</h2>
-                            <p className = "projectTags">{project.tags}</p>
-                            <p className = "projectDescription">{project.description}</p>
-                            <div className = "projectLinks">
-                                <p><a href = {project.repo} target="_blank" rel="noreferrer">Source Code</a> →</p>
-                                <p><a href = {project.site} target="_blank" rel="noreferrer">Live Project </a>→</p>
-                            </div>
-                        </div>
+        <div className = "projects" id="work">
+            <div className="project-1">
+                <div className="projectCard">
+                    <div className="content">
+                        <div className="top">
+                            <p>MASONRY</p>
+                            <p className="right">WEBSITE DEVELOPMENT & MAINTAINENCE</p>
+                        </div>       
+                        <div className="center">
+                            <p className="cardTitle">CHUY'S</p>    
+                        </div>               
+                        <div className="bottom">
+                            <p>CRAFT CMS, HTML, SASS, JAVASCRIPT, VUE</p>
+                            <a className="right" href="https://www.chuys.com" target="_blank">VIEW SITE</a>
+                        </div> 
                     </div>
-                ))}
-
+                </div>
+                <p className="projectDescription">In 2022 the Chuy's website went through a complete overhaul. The new website moved from ExpressionEngine to Craft CMS for client-side content management, as well as a responsive and modern makeover. I worked alongside a Lead Developer on the front-end development using Vue and Sass, and utilized the Twig templating engine to connect the front end to the CMS backend.  </p>
             </div>
         </div>
     );

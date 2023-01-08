@@ -14,7 +14,8 @@ function Hero(props) {
             <div className = "heroBanner">
                 <div className = "heroTitle">
                     <h1>I'm Neal Garcia, <br/>Web Developer.</h1>
-                    <p>I'm a Junior Front-End Developer who aims to craft tailor-made, digital experiences on mobile and web. I'm currently working as a Junior Web Developer @ <a target="_blank" href="https://www.builtbymasonry.com">MASONRY</a></p>
+                    <p>I'm a Front-End Developer who aims to craft tailor-made, digital experiences on mobile and web. I'm currently based in Austin, TX working as a Junior Web Developer @ <a target="_blank" href="https://www.builtbymasonry.com"><span className="small-text">MASONRY</span></a>.</p>
+                    <p><a className="small-text" href="mailto: nealgarcia95@gmail.com">REACH OUT AND SAY HELLO     <span id="emailmoji">📩</span></a></p>
                 </div>
             </div>
         </div>

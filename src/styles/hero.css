@@ -1,8 +1,10 @@
 .heroBanner{
-    max-width: 960px;
+    max-width: 701px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
+    margin-bottom: 70px;
+    padding-top: 300px;
+    padding-bottom: 40px;
 }
 
 .heroTitle{
@@ -10,7 +12,7 @@
 }
 
 .heroBanner p{
-    max-width: 700px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top:20px;
@@ -19,9 +21,35 @@
 .heroBanner  h1{
     font-size: 5.5em;
     margin:0;
-    font-family: 'Clash', serif;
+    font-family: 'Clash', sans-serif;
 }
 
 a {
     color: inherit;
 }
+
+.heroBanner a{
+    text-decoration: none;
+}
+
+.pin {
+    width:1em;
+    height:1em;
+}
+
+.small-text{
+    font-family: 'Clash', sans-serif;
+    border-bottom:2px solid;
+    padding-bottom:4px;
+    transition: 0.25s;
+}
+
+.small-text:hover{
+    padding-bottom:7px;
+}
+
+#emailmoji{
+    padding-left:5px;
+    padding-bottom:2px;
+}
+

@@ -1,0 +1,75 @@
+.projects{
+    scroll-margin-top:90px;
+    margin-top:320px;
+    margin-bottom:320px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 920px;
+    width: 100%;
+}
+
+
+
+.slick-next{
+    right: -75px;
+}
+.slick-prev{
+    left: -75px;
+}
+
+
+.projectCard{
+    color: white;
+    background-color:#E5416C;
+    display: flex !important; 
+    position: relative;
+    width: 880px !important;
+    height: 400px;
+    padding: 20px;
+}
+
+.content{
+    color: white;
+    background-color:#E5416C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.cardTitle{
+    font-family: "Clash", sans-serif;
+    font-size: 5em;
+    color: #FFE100;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right{
+    text-align: right;
+}
+
+.projectDescription{
+    margin-top:40px;
+}
+
