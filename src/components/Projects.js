@@ -90,40 +90,40 @@ function Projects(props) {
                         </div> 
                     </div>
                 </div>
-                <p className="projectDescription">In 2022 the Chuy's website went through a complete overhaul. The new website moved from ExpressionEngine to Craft CMS for client-side content management, as well as a responsive and modern makeover. I worked alongside a Lead Developer on the front-end development using Vue and Sass, and utilized the Twig templating engine to connect the front end to the CMS backend.  </p>
+                <p className="projectDescription">In 2022 the Chuy's website went through a complete overhaul. The new website moved from ExpressionEngine to Craft CMS for client-side content management, as well as a responsive and modern makeover. I worked alongside a Lead Developer on the front-end development using Vue and Sass, utilized the Twig templating engine to connect the front-end to the CMS backend, and provided post-launch support and maintenance.   </p>
             </div>
 
             <div className="project-2">
                 <div className="projectCard">
                     <div className="content">
                         <div className="top">
-                            <p>MASONRY</p>
-                            <p className="right">WEBSITE DEVELOPMENT & MAINTAINENCE</p>
+                            <p>PERSONAL PROJECT</p>
+                            <p className="right">WEBSITE DEVELOPMENT & DESIGN</p>
                         </div>       
                         <div className="center">
-                            <p className="cardTitle">CHUY'S</p>    
+                            <p className="cardTitle">REACT ART GALLERY</p>    
                         </div>               
                         <div className="bottom">
-                            <p>CRAFT CMS, HTML, SASS, JAVASCRIPT, VUE</p>
+                            <p>HTML, CSS, JAVASCRIPT, REACT, API</p>
                             <a className="right" href="https://www.chuys.com" target="_blank">VIEW SITE</a>
                         </div> 
                     </div>
                 </div>
-                <p className="projectDescription">In 2022 the Chuy's website went through a complete overhaul. The new website moved from ExpressionEngine to Craft CMS for client-side content management, as well as a responsive and modern makeover. I worked alongside a Lead Developer on the front-end development using Vue and Sass, and utilized the Twig templating engine to connect the front end to the CMS backend.  </p>
+                <p className="projectDescription">This was a project developed during my time in General Assembly's Software Engineering Immersive Program. React Art Gallery is a front-end web application that utilizes third-party data from the Art Institute of Chicago API to allow users to search and browse their collections.</p>
             </div>
 
             <div className="project-3">
                 <div className="projectCard">
                     <div className="content">
                         <div className="top">
-                            <p>MASONRY</p>
-                            <p className="right">WEBSITE DEVELOPMENT & MAINTAINENCE</p>
+                            <p>PERSONAL PROJECT</p>
+                            <p className="right">WEBSITE DEVELOPMENT & DESIGN</p>
                         </div>       
                         <div className="center">
-                            <p className="cardTitle">CHUY'S</p>    
+                            <p className="cardTitle"></p>    
                         </div>               
                         <div className="bottom">
-                            <p>CRAFT CMS, HTML, SASS, JAVASCRIPT, VUE</p>
+                            <p>HTML, CSS, JAVASCRIPT, REACT, API</p>
                             <a className="right" href="https://www.chuys.com" target="_blank">VIEW SITE</a>
                         </div> 
                     </div>

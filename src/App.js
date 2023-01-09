@@ -5,7 +5,6 @@ import Footer from './components/Footer.js'
 import About from './components/About.js'
 import Nav from './components/Nav.js'
 import Hero from './components/Hero.js'
-import SimpleSlider from './components/Slider.js'
 
 //fonts
 import "./assets/fonts/ClashDisplay-Semibold.ttf"
@@ -19,7 +18,6 @@ function App() {
       <Nav/>
       <Hero/>
       {/* <Header/> */}
-      {/* <SimpleSlider/> */}
       <Projects/>
       <About/>
       <Footer/>

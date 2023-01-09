@@ -22,8 +22,6 @@
 
 
 .projectCard{
-    color: white;
-    background-color:#E5416C;
     display: flex !important; 
     position: relative;
     width: 880px !important;
@@ -31,9 +29,17 @@
     padding: 20px;
 }
 
-.content{
-    color: white;
+.project-1 .projectCard{
     background-color:#E5416C;
+    color: white;
+}
+
+.project-2 .projectCard{
+    background-color: #e6e2da;
+    color: black;
+}
+
+.content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,8 +62,19 @@
 
 .cardTitle{
     font-family: "Clash", sans-serif;
-    font-size: 5em;
     color: #FFE100;
+}
+
+.project-1 .cardTitle{
+    color: #FFE100;
+    font-size: 5em;
+
+}
+
+.project-2 .cardTitle{
+    color: #000;
+    font-size: 3.5em;
+
 }
 
 .bottom{
