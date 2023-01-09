@@ -14,13 +14,29 @@
 
 html{scroll-behavior:smooth}
 
-
 body {
+  cursor: none;
+
   font-family: 'Archivo',
     sans-serif;
   transition: background-color 0.25s;
   margin: 0;
 }
+
+#invertedcursor {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  top: var(--y, 0);
+  left: var(--x, 0);
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  mix-blend-mode: difference;
+  transition: transform .2s;
+}
+
 
 .topNavWrapper{
   background-color: inherit;

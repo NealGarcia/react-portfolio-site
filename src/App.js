@@ -11,10 +11,26 @@ import "./assets/fonts/ClashDisplay-Semibold.ttf"
 import "./assets/fonts/Archivo-Regular.ttf"
 import Slider from 'react-slick'
 
+// js for cursor stuff
+document.body.onmousemove = function(e) {
+  document.documentElement.style.setProperty (
+    '--x', (
+      e.clientX+window.scrollX
+    )
+    + 'px'
+  );
+  document.documentElement.style.setProperty (
+    '--y', (
+      e.clientY+window.scrollY
+    ) 
+    + 'px'
+  );
+}
 
 function App() {
   return (
     <div className="App">
+      <div id="invertedcursor"></div>
       <Nav/>
       <Hero/>
       {/* <Header/> */}
