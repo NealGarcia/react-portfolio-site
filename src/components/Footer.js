@@ -4,7 +4,7 @@ import { ReactComponent as IgIcon } from '../assets/SVGs/ig.svg'
 import { ReactComponent as LinkedinIcon } from '../assets/SVGs/linkedin.svg'
 import { ReactComponent as Pin } from '../assets/pin.svg'
 
-
+let year = new Date().getFullYear()
 
 
 function Footer(props) {
@@ -15,7 +15,7 @@ function Footer(props) {
             <a href = "https://www.linkedin.com/in/nealgarcia" target="_blank" rel="noreferrer"><LinkedinIcon className = "icon"/></a>
             <a href="https://www.instagram.com/neal.garcia/"><IgIcon className = "icon"/></a>
             </div>
-            Neal Garcia ©2023
+            Thanks for checkin' out my site ♥ | Neal Garcia ©{year}
         </div>
     );
 }
