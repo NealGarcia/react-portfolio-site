@@ -11,11 +11,11 @@ function Footer(props) {
     return (
         <div className = "footer">
             <div className = "socialIcons">
-            <a href = "https://github.com/NealGarcia" target="_blank" rel="noreferrer"><GithubIcon className = "icon" /></a>
+            <a href = "https://github.com/neal-garcia95" target="_blank" rel="noreferrer"><GithubIcon className = "icon" /></a>
             <a href = "https://www.linkedin.com/in/nealgarcia" target="_blank" rel="noreferrer"><LinkedinIcon className = "icon"/></a>
             <a href="https://www.instagram.com/neal.garcia/"><IgIcon className = "icon"/></a>
             </div>
-            Neal Garcia ©2022
+            Neal Garcia ©2023
         </div>
     );
 }
