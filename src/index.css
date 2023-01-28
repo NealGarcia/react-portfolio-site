@@ -15,12 +15,14 @@
 html{scroll-behavior:smooth}
 
 body {
-  cursor: none;
-
-  font-family: 'Archivo',
-    sans-serif;
+  cursor: none !important;
+  font-family: 'Archivo', sans-serif;
   transition: background-color 0.25s;
   margin: 0;
+}
+
+a{
+  cursor: none;
 }
 
 #invertedcursor {
@@ -35,6 +37,7 @@ body {
   z-index: 99999;
   mix-blend-mode: difference;
   transition: transform .2s;
+  pointer-events:none;
 }
 
 
@@ -53,7 +56,6 @@ button {
 	border: none;
 	padding: 0;
 	font: inherit;
-	cursor: pointer;
 	outline: inherit;
   border-bottom: 2px solid;
   padding-bottom: 3px;

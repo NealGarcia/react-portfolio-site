@@ -80,7 +80,7 @@ li {
 .slider {
   background-color: #ccc;
   position: absolute;
-  cursor: pointer;
+  cursor: none;
   bottom: 0;
   left: 0;
   right: 0;
