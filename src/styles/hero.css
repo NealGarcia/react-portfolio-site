@@ -1,0 +1,54 @@
+.heroBanner{
+    max-width: 701px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    padding-top: 300px;
+    padding-bottom: 40px;
+}
+
+.heroTitle{
+    text-align:center;
+}
+
+.heroBanner p{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    line-height:27px;
+}
+.heroBanner  h1{
+    font-size: 5.5em;
+    margin:0;
+    font-family: 'Clash', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.heroBanner a{
+    text-decoration: none;
+}
+
+.pin {
+    width:1em;
+    height:1em;
+}
+
+.small-text{
+    font-family: 'Clash', sans-serif;
+    border-bottom:2px solid;
+    padding-bottom:4px;
+}
+
+.small-text:hover{
+    padding-bottom:7px;
+}
+
+#emailmoji{
+    padding-left:5px;
+    padding-bottom:2px;
+}
+

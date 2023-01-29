@@ -1,0 +1,144 @@
+.projects{
+    scroll-margin-top:90px;
+    margin-top:320px;
+    margin-bottom:320px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 920px;
+    width: 100%;
+}
+
+.project-1, .project-2, .project-3{
+    margin-bottom:300px;
+}
+.project-1 .projectCard{
+    background-color:#E5416C;
+    color: white;
+}
+
+.project-2 .projectCard{
+    background-color: #e6e2da;
+    color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.cardTitle{
+    font-family: "Clash", sans-serif;
+    color: #FFE100;
+}
+
+.project-1 .cardTitle{
+    color: #FFE100;
+    font-size: 5em;
+
+}
+
+.project-2 .cardTitle{
+    color: #000;
+    font-size: 3.5em;
+
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right{
+    text-align: right;
+}
+
+.projectCard {
+    border-radius: 15px;
+    box-shadow: 0 5px 16px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 0;
+    transition: top .25s ease-in-out,box-shadow .25s ease-in-out,background-color .2s;
+    display: flex !important; 
+    position: relative;
+    max-width: 880px !important;
+    padding: 20px;
+  }
+  
+  .projectsContainer, .projectsTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  .projectsContainer {
+    flex-wrap: wrap;
+    margin: 50px auto auto;
+    width: 90%;
+  }
+  
+  .projectTextWrapper {
+    padding: 0 20px 0;
+    transition: color .25s;
+  }
+  
+  .projectDescription {
+    font-size: 14px;
+    white-space: pre-line;
+    margin-top:20px;
+  }
+  
+  .projectCard img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .projects{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .projectTags{
+    font-size: 12px;
+    margin-top: -20px;
+    font-family: 'Clash', sans-serif;
+  }
+
+  .small-text{
+    text-decoration: none;
+  }
+
+  .projectLinks{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .projectLinks p{
+    margin-bottom: 20px;
+  }

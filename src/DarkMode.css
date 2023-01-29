@@ -23,6 +23,15 @@ body {
   color: var(--font-color);
 }
 
+.heroBanner{
+  /* border-bottom: 0.5px solid var(--font-color); */
+}
+
+.topNavWrapper{
+    background-color: var(--background-color);
+  color: var(--font-color);
+}
+
 li {
   color: var(--link-color);
 }
@@ -46,7 +55,6 @@ li {
 /* toggle button css */
 .toggle-theme-wrapper {
   top: 0;
-  margin-top: 10px;
   /* position: fixed; */
   display: flex;
   flex-direction: row;
@@ -72,12 +80,12 @@ li {
 .slider {
   background-color: #ccc;
   position: absolute;
-  cursor: pointer;
+  cursor: none;
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 .slider:before {
@@ -87,7 +95,7 @@ li {
   height: 26px;
   left: 4px;
   position: absolute;
-  transition: 0.4s;
+  transition: 0.25s;
   width: 26px;
 }
 
@@ -105,4 +113,9 @@ input:checked + .slider {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.projectCard:hover {
+  box-shadow: 0 15px 16px 0 rgb(0 0 0 / 10%);
+  top: -5px;
 }

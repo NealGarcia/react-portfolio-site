@@ -15,7 +15,7 @@ function Footer(props) {
             <a href = "https://www.linkedin.com/in/nealgarcia" target="_blank" rel="noreferrer"><LinkedinIcon className = "icon"/></a>
             <a href="https://www.instagram.com/neal.garcia/"><IgIcon className = "icon"/></a>
             </div>
-            Thanks for checkin' out my site ♥ | Neal Garcia ©{year}
+            Neal Garcia ©{year}
         </div>
     );
 }
