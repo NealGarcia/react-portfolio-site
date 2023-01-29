@@ -23,6 +23,11 @@ body {
 
 a{
   cursor: none;
+  transition: opacity 0.25s
+}
+
+.small-text{ 
+  transition: padding-bottom 0.2s, opacity 0.25s;
 }
 
 #invertedcursor {
@@ -105,7 +110,6 @@ button:hover{
 }
 
 a{
-  transition: 0.25s
 }
 
 a:hover{
@@ -114,12 +118,14 @@ a:hover{
 
 
 .about {
-  width: 75%;
+  max-width: 1000px;
   margin: auto;
   margin-top: 30px;
+  transition: background-color 0.25s, color 0.25s;
 }
 
 .aboutTitle{
+  font-family: "Clash", sans-serif;
   font-size: 36px;
   display: flex;
   margin-bottom: 20px

@@ -85,7 +85,7 @@ li {
   left: 0;
   right: 0;
   top: 0;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 .slider:before {
@@ -95,7 +95,7 @@ li {
   height: 26px;
   left: 4px;
   position: absolute;
-  transition: 0.4s;
+  transition: 0.25s;
   width: 26px;
 }
 
@@ -113,4 +113,9 @@ input:checked + .slider {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.projectCard:hover {
+  box-shadow: 0 15px 16px 0 rgb(0 0 0 / 10%);
+  top: -5px;
 }

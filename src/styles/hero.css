@@ -41,7 +41,6 @@ a {
     font-family: 'Clash', sans-serif;
     border-bottom:2px solid;
     padding-bottom:4px;
-    transition: 0.25s;
 }
 
 .small-text:hover{
