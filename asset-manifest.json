@@ -1,27 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6151c8f3.css",
-    "main.js": "/static/js/main.ae83c6f4.js",
+    "main.css": "/static/css/main.f33cb8ff.css",
+    "main.js": "/static/js/main.17900d9a.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
     "static/media/avatar.JPG": "/static/media/avatar.7935036090754abcc3c5.JPG",
-    "static/media/artgallery.png": "/static/media/artgallery.680b92bb553d6609cde5.png",
-    "static/media/travlr.png": "/static/media/travlr.cc2a0389194624f79e46.png",
-    "static/media/spaceman.png": "/static/media/spaceman.91bcfc5ce7bf463ae192.png",
-    "static/media/portfolio.png": "/static/media/portfolio.b41100b9f5f41aa42b26.png",
+    "static/media/Archivo-Regular.ttf": "/static/media/Archivo-Regular.e5a76ab88b240d968f14.ttf",
     "static/media/resume.pdf": "/static/media/resume.a8c897d88aaa0fe31132.pdf",
-    "static/media/nba-teams.png": "/static/media/nba-teams.216cc0f5468836780a8b.png",
-    "static/media/employeefinder.png": "/static/media/employeefinder.befacc794b25a71b428f.png",
+    "static/media/ClashDisplay-Semibold.ttf": "/static/media/ClashDisplay-Semibold.fe7b20eb73776202f79f.ttf",
     "static/media/github.svg": "/static/media/github.cc1f51b75df5d897b53e869701ca3c00.svg",
     "static/media/pin.svg": "/static/media/pin.4cd0c00cafd9b02c9defca5f61abfb7d.svg",
     "index.html": "/index.html",
     "static/media/ig.svg": "/static/media/ig.008c4b2d897b53b51615db24769eb74c.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.7f84e9789767c5ad597636afe69a41db.svg",
-    "main.6151c8f3.css.map": "/static/css/main.6151c8f3.css.map",
-    "main.ae83c6f4.js.map": "/static/js/main.ae83c6f4.js.map",
+    "main.f33cb8ff.css.map": "/static/css/main.f33cb8ff.css.map",
+    "main.17900d9a.js.map": "/static/js/main.17900d9a.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6151c8f3.css",
-    "static/js/main.ae83c6f4.js"
+    "static/css/main.f33cb8ff.css",
+    "static/js/main.17900d9a.js"
   ]
 }
